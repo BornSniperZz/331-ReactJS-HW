@@ -1,0 +1,41 @@
+#root {
+    width: 70%;
+    margin: auto;
+}
+
+.store-page h1, h3 {
+    margin: 10px 10px;
+}
+
+.store-page button, input {
+    font-size: 1.2rem;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.productCard {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #fafafa;
+    margin-bottom: 25px;
+}
+
+.productCard img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+#searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
